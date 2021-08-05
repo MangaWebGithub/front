@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 p,
 h1,
 h2,
@@ -25,4 +30,8 @@ p {
 
 h1 {
     font-size: 2rem;
+}
+
+img {
+    width: 100%;
 }
