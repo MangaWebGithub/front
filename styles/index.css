@@ -34,12 +34,12 @@
 
 .recomend_info_title img {
     width: 100%;
-    filter: drop-shadow(30px 10px 4px #4444dd);
+    filter: drop-shadow(12px 10px 4px #290000);
 }
 
 .recomend_img img {
     width: 100%;
-    /*filter: drop-shadow(30px 10px 4px #4444dd);*/
+    filter: drop-shadow(10px 10px 10px #1c0101);
 }
 
 .recomend_info_description {
