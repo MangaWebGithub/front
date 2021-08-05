@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manga Web</title>
+    <link rel="stylesheet" href="./styles/general.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./styles/index.css" type="text/css" />
+
+    <title>😎 Manga Web</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img />
-        <nav>
+        <nav class="nav">
             <ul>
-                <li>Inicio</li>
-                <li>Biblioteca</li>
+                <li>
+                    <p><strong>Inicio</strong></p>
+                </li>
+                <li>
+                    <p><strong>Biblioteca</strong></p>
+                </li>
             </ul>
         </nav>
     </header>
@@ -26,17 +33,21 @@
                     <img src="resources/images/Chainsaw_Man_Logo.png" />
                 </div>
                 <div class="recomend_info_description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et
-                        dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut</br>
+                        labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco</br> laboris nisi ut aliquid ex ea
+                        commodi
                         consequat. Quis aute
-                        iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                        sint obcaecat cupiditat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        iure reprehenderit in voluptate</br> velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur
+                        sint obcaecat cupiditat non</br>
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
                 <div class="recomend_info_buttons_action">
-                    <button>Leer</button>
-                    <button>Guardar</button>
+                    <button class="recomend_info_buttons_action_leer">Leer</button>
+                    <button class="recomend_info_buttons_action_guardar">Guardar</button>
                 </div>
             </div>
             <div class="recomend_img">
@@ -58,6 +69,8 @@
                                 <p>Kanojo Mo Kanojo</p>
                             </div>
                         </section>
+                    </li>
+                    <li>
                         <section class="principal_popular_card">
                             <div class="card_img">
                                 <img src="resources/images/Hitomi_Chan_Is_Shy_With_Stranger.jpg" />
@@ -66,6 +79,8 @@
                                 <p>Hitomi-chan Is Shy With Strangers</p>
                             </div>
                         </section>
+                    </li>
+                    <li>
                         <section class="principal_popular_card">
                             <div class="card_img">
                                 <img src="resources/images/Tejina_Senpai.jpg" />
@@ -74,6 +89,8 @@
                                 <p>Tejina Senpai</p>
                             </div>
                         </section>
+                    </li>
+                    <li>
                         <section class="principal_popular_card">
                             <div class="card_img">
                                 <img src="resources/images/Kakkou_no_Iinazuke.jpg" />
@@ -82,9 +99,12 @@
                                 <p>Kakkou no Iinazuke</p>
                             </div>
                         </section>
+                    </li>
+                    <li>
                         <section class="principal_popular_card">
                             <div class="card_img">
-                                <img src="resources/images/Kimi_no_koto_ga_Dai_Dai_Dai_Dai_Daisuki_na_100-nin_no_Kanojo.jpg" />
+                                <img
+                                    src="resources/images/Kimi_no_koto_ga_Dai_Dai_Dai_Dai_Daisuki_na_100-nin_no_Kanojo.jpg" />
                             </div>
                             <div class="card_description">
                                 <p>Kimi no koto ga Dai Dai Dai Dai Daisuki...</p>
