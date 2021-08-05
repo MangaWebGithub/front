@@ -1,0 +1,2 @@
+- Añadir recomendaciones de mangas populares de acuerdo a lo que el cliente consume.
+- Sidebar-
