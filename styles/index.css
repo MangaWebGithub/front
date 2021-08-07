@@ -89,13 +89,17 @@
     flex-direction: row;
     align-content: center;
     justify-content: flex-start;
-    padding: 0 30px 0 30px;
+    padding: 0px 6em 0 6em;
+}
+
+.footer_group_content ul li p {
+    text-align: justify;
 }
 
 @media screen and (max-width: 540px) {
     .footer_group {
-        display: flex;
-        gap: 2em;
+        display: grid;
+        gap: 1em;
         flex-direction: row;
         align-content: center;
         justify-content: flex-start;
