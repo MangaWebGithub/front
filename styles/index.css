@@ -83,6 +83,14 @@
     gap: 50px;
 }
 
+.footer_group {
+    display: flex;
+    gap: 5em;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+}
+
 @media screen and (max-width: 540px) {
     .header {
         justify-content: center;
@@ -102,13 +110,5 @@
 
     .principal_popular_content ul {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    }
-
-    .footer_group {
-        display: flex;
-        gap: 5em;
-        flex-direction: row;
-        align-content: center;
-        justify-content: flex-start;
     }
 }
