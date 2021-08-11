@@ -1,0 +1,193 @@
+.header {
+    display: flex;
+    padding: 0 50px 0 50px;
+}
+
+.header img {
+    width: auto;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.principal_manga_recomend {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    align-items: start;
+    justify-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.manga_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 3em 0 0 0;
+}
+
+.manga_info_description {
+    text-align: center;
+}
+
+.principal_manga_capitulos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8em;
+    background-color: #1F1E1E;
+    padding: 20px 100px 20px 100px;
+}
+
+.principal_manga_capitulos_listas {
+    width: 100%;
+}
+
+.principal_manga_capitulos_listas_lista {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.principal_manga_capitulos_listas_lista_cap {
+    color: white;
+    text-align: start;
+    padding: 0px 0px 0px 29px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #373737;
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+.principal_manga_capitulos_listas_lista_ver_mas {
+    color: white;
+    padding: 0px 0px 0px 29px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #606060;
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+
+.principal_manga_compartir {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-top: 4em;
+}
+
+.principal_manga_compartir_titulo h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.principal_manga_compartir_enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.principal_manga_compartir_enlaces_facebook {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #3B5998;
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+
+.principal_manga_compartir_enlaces_whatsapp {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #25D366;
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+
+.principal_manga_compartir_enlaces_twitter {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #55ACEE;
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+
+.principal_manga_compartir_enlaces_telegram {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #0088CC;
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+
+.footer_group {
+    display: flex;
+    gap: 12em;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0px 6em 0 6em;
+}
+
+.footer_group_content ul li p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 540px) {
+    .header {
+        justify-content: center;
+    }
+
+    .principal_manga_recomend {
+        grid-template-columns: 1fr;
+    }
+
+    .manga_img {
+        margin-top: 0;
+    }
+
+    .principal_manga_capitulos {
+        padding: 10px 0px 20px 0px;
+        width: 100%;
+        display: grid;
+        align-content: center;
+        align-items: center;
+    }
+
+    .principal_manga_capitulos_listas_lista {
+        padding: 1em;
+    }
+
+    .principal_manga_compartir {
+        display: contents;
+    }
+
+    .footer_group {
+        display: grid;
+        gap: 1em;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-start;
+        padding: 0 30px 0 30px;
+    }
+}
