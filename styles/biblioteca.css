@@ -1,0 +1,16 @@
+.biblioteca_principal_recomend {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    align-items: start;
+    justify-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.biblioteca_buscar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 3em 0 0 0;
+}
