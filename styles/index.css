@@ -18,14 +18,24 @@
 
 .principal_recomend {
     display: grid;
-    grid-template-columns: 2fr 1.5fr;
-    align-items: start;
+    grid-template-columns: 2fr 1fr;
+    align-items: end;
     justify-items: center;
     padding: 0 20px 0 20px;
 }
 
+.recomend_info_title {
+    display: flex;
+    justify-content: center;
+}
+
 .recomend_img {
-    margin-top: -120px;
+    display: flex;
+    justify-content: center;
+}
+
+.recomend_img img {
+    width: 100%;
 }
 
 .recomend_info {
@@ -34,14 +44,20 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .recomend_info_title img {
     filter: drop-shadow(12px 10px 4px #290000);
+    width: 80%;
 }
 
 .recomend_info_description {
     text-align: center;
+}
+
+.recomend_info_description p {
+    padding: 0 10%;
 }
 
 .recomend_info_buttons_action {
@@ -72,6 +88,10 @@
     padding: 20px 100px 0 100px;
 }
 
+.principal_popular_content {
+    padding-bottom: 50px;
+}
+
 .principal_popular_content ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -81,7 +101,8 @@
 
 .footer_group {
     display: flex;
-    gap: 12em;
+    flex-wrap: nowrap;
+    column-gap: 10em;
     flex-direction: row;
     align-content: center;
     justify-content: flex-start;
@@ -92,7 +113,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
     .header {
         justify-content: center;
     }
@@ -103,6 +124,10 @@
 
     .recomend_img {
         margin-top: 0;
+    }
+
+    .recomend_img img {
+        width: 80%;
     }
 
     .principal_popular {
