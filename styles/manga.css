@@ -33,6 +33,10 @@
     padding: 3em 0 0 0;
 }
 
+.manga_img {
+    margin-bottom: -4px;
+}
+
 .manga_info_description {
     text-align: center;
 }
@@ -164,6 +168,8 @@
 
     .manga_img {
         margin-top: 0;
+        margin: -4px;
+
     }
 
     .principal_manga_capitulos {
